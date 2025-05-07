@@ -1,4 +1,4 @@
-package JavaDemo.ConditionalStatement;
+package JavaDemo.ControlStatement;
 
 public class StatementDemo {
     public static void main (String[] args ){

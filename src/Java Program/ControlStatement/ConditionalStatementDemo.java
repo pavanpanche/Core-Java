@@ -1,10 +1,9 @@
-package JavaDemo.ConditionalStatement;
+package JavaDemo.ControlStatement;
 
-public class ConditionalStatement {
+public class ConditionalStatementDemo {
 
+     // if else statement
 
-    int a;
-    int  b;
     public static void main (String[] args) {
         int a =10;
         int b= 22;
