@@ -10,12 +10,14 @@ This repository contains various core Java programs and exercises for learning a
 - String Handling
 - Exception handling
 - try-catch and finally
-- Object oriented programming
-- inheritance
-- polymorphism
-- encapsulation
-- abstraction
-
+- Custom Exception
+- Object oriented programming principals
+- Class, Object, Constructor
+- Inheritance
+- Polymorphism
+- Encapsulation
+- Abstraction
+- 
 ## How to Run
 To run any program, simply open the `.java` file in your favorite IDE (such as IntelliJ IDEA) and run it from there.
 
