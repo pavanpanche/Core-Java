@@ -37,6 +37,8 @@ This repository contains various core Java programs and exercises for learning a
 ## How to Run
 To run any program, simply open the `.java` file in your favorite IDE (such as IntelliJ IDEA) and run it from there.
 
+---
+
 
 # 📅 05-03-2025: Java Basics
 
@@ -76,6 +78,7 @@ class ClassName {
         // statements
     }
 }
+```
 
 ---
 ## 🌟 Java Features
