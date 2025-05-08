@@ -15,22 +15,26 @@ This repository contains various core Java programs and exercises for learning a
 - Basic Java Syntax
 - Data Types
 - Control Statements
-- Arrays, Methods, and more.
+- Arrays, Methods, Variable(Instance, static, local)
 - String Handling
 - Exception handling
 - try-catch and finally
 - Custom Exception
 - Object oriented programming principals
-- Class, Object, Constructor
+- Class, Object
+- Constructor, Constructor overloading 
 - Inheritance
-- Polymorphism
+- Polymorphism (Overloading, Overriding)
 - Encapsulation
 - Abstraction classes, interfaces
 - Packages
 - Access modifiers, Non Access Modifiers
+- Scanner Class
 - Static Class
 - Nested Classes
-- Collection
+- Collection Framework
+- MultiTHreading
+- Java 8 Features (Lamda Expression, Functional Interface, Annotation, Date and time Api)
 
 ---
 
