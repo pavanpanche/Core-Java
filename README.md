@@ -421,7 +421,7 @@ for(int num : numbers) {
 ## String Handling Type in Java 
 - String: Strings are immutable (cannot be changed once created).
 
-- StringBuffer: mutable (can't be changes once created)]
+- StringBuffer: mutable (can be changes once created)]
 
 - StringBuilder: mutable and thread safe
 
