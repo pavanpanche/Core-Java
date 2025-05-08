@@ -1,2 +1,23 @@
-# Core-Java
-this is my core java learning repo
+# Core Java Projects
+
+This repository contains various core Java programs and exercises for learning and practice.
+
+## Description
+- Basic Java Syntax
+- Data Types
+- Control Statements
+- Arrays, Methods, and more.
+- String Handling
+- Exception handling
+- try-catch and finally
+- Object oriented programming
+- inheritance
+- polymorphism
+- encapsulation
+- abstraction
+
+## How to Run
+To run any program, simply open the `.java` file in your favorite IDE (such as IntelliJ IDEA) and run it from there.
+
+
+
