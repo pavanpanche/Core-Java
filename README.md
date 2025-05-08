@@ -512,6 +512,8 @@ class Car {
     }
 }
 ```
+---
+
 ## 🎯 2. Object
 - An object is an instance of a class.
 
@@ -528,16 +530,63 @@ Car myCar = new Car();
 myCar.color = "Red";
 myCar.drive();
 ```
+---
 
 ## 🧱 3. Constructor
-A constructor is a special method used to initialize objects.
 
-It has the same name as the class and no return type.
+- Constructor is a one type of special method.
+- Constructor name and class Name must be same and with no return type including void.
+- Constructor will execute whenever we create an object.
+- The purpose of constructors is to initilize instance variables.
+- **They are 3 types of constructors**
+   - default/Non parameterized constructor.
+   - Parameterized Constructor
+   - Copy Constructor.
 
-### ✅ Types of Constructors:
-- Default Constructor (no arguments)
+### default/Non parameterized constructor.
 
-- Parameterized Constructor
+The constructor without formal parameters or Zero formal parameters is called default or 
+Non parameterized constructor.
+
+### Parameterized Constructors
+
+The constructor with formal parameters is called parameterized constructors.
+
+### Copy Constructor.
+
+The process of copying 1 object refernce or refernce variable into another Onject refernce or
+reference variable.
+
+
+- **If there is no constructor jvm will provide 1 default constructor.**
+
+---
+  
+### Constructor Overloading
+
+The process of 2 or more constructors with same name and different formal parameters list.
+**Constructor overriding is not possible because inheritance is not possible.**
+
+### Constructor chaining
+
+- The process of calling one constructor to another constructor is called constructor chaining.
+- Constructor chaining can be possible by this(),super().
+- this() and super() must be written in first statement.
+- super() is implicitly present in every class but not this().
+
+---
+
+#### this()
+this() will call default constructor in current class.
+
+#### this(int x)
+this(int x) will parameterized constructor in current class.
+
+#### super()
+super() will call default constructor in super class
+
+#### super(int x)
+super(int x) will call parameterized constructor in super class
 
 #### 🧪 Example:
 ```java
@@ -669,14 +718,27 @@ class Employee {
 ---
 
 ## 🧩 7. Abstraction
-Hiding internal details and showing only essential features.
-
+- The process of hiding uncessesary details and showing necessary details is called Abstaraction.
+- The process of  hiding implementation code and showing only functinality to the user.
+  
 ### Achieved using:
-
-- Abstract classes: Must With Abstract Keyword 
+- Abstract classes
 - Interfaces
 
-### 🧪 Abstract Class Example:
+### 🧪 Abstract Class 
+- A class which is defined with abstract keyword then that is called a abstract class.
+- abstract class is a collection of concrete methods and abstract methods.
+
+### Abstract Class Contain Two Method:
+- **abstarct class**
+- A class which is defined with abstract keyword then that is called a abstract class.
+- abstract class is a collection of concrete methods and abstract methods.
+
+- **concrete methods**:
+- The methods which have body then that is called a concrete method.
+- The purpose of concrete methods to give common functinality to the implementation classes.
+
+#### Example:
 
 ```java
 abstract class Shape {
