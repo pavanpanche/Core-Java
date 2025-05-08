@@ -730,7 +730,7 @@ class Employee {
 - abstract class is a collection of concrete methods and abstract methods.
 
 ### Abstract Class Contain Two Method:
-- **abstarct class**
+- **abstarct Method**
 - A class which is defined with abstract keyword then that is called a abstract class.
 - abstract class is a collection of concrete methods and abstract methods.
 
