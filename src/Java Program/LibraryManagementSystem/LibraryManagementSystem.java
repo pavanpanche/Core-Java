@@ -61,6 +61,7 @@ public class LibraryManagementSystem {
                     break;
                 default:
                     System.out.println("Invalid choice. Try again");
+                    System.out.println("Choose Right Option");
             }
         }
     }
