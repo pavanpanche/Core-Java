@@ -468,6 +468,265 @@ System.out.println(name.substring(5));      // Programming
 
 - Both are essential for data manipulation in Java.
 
+---
+
+# 📅 08-03-2025: Object-Oriented Programming (OOP) Concepts in Java
+
+Object-Oriented Programming (OOP) is a fundamental programming paradigm based on the concept of **objects** and **classes**. Java is a **pure object-oriented language**, and mastering OOP is essential for Java development.
+
+---
+
+## 📌 Core OOP Concepts
+
+1. Class  
+2. Object  
+3. Constructor  
+4. Inheritance  
+5. Polymorphism  
+6. Encapsulation  
+7. Abstraction  
+
+---
+
+## 🧱 1. Class
+
+- A **class** is a blueprint for creating objects.
+- It defines properties (fields) and behaviors (methods).
+
+### ✅ Syntax:
+
+```java
+class ClassName {
+    // Fields (variables)
+    // Methods
+}
+```
+### Example 
+```java
+class Car {
+    String color;
+    int speed;
+
+    void drive() {
+        System.out.println("Car is driving...");
+    }
+}
+```
+## 🎯 2. Object
+- An object is an instance of a class.
+
+- It contains real values of properties defined in the class.
+
+- ✅ **Creating an Object**:
+
+```java
+ClassName obj = new ClassName();
+```
+### Example
+```java
+Car myCar = new Car();
+myCar.color = "Red";
+myCar.drive();
+```
+
+## 🧱 3. Constructor
+A constructor is a special method used to initialize objects.
+
+It has the same name as the class and no return type.
+
+### ✅ Types of Constructors:
+- Default Constructor (no arguments)
+
+- Parameterized Constructor
+
+#### 🧪 Example:
+```java
+class Person {
+    String name;
+    int age;
+
+    // Constructor
+    Person(String n, int a) {
+        name = n;
+        age = a;
+    }
+
+    void show() {
+        System.out.println(name + " is " + age + " years old");
+    }
+}
+
+Person p = new Person("Alice", 25);
+p.show();
+```
+---
+
+## 🧬 4. Inheritance
+- Inheritance allows a class to inherit properties and methods from another class.
+
+- Promotes code reusability parent class to child class.
+### ✅ Syntax:
+```java
+class Parent {
+    // code
+}
+
+class Child extends Parent {
+    // inherits Parent
+}
+```
+
+### 🧪 Example:
+```java 
+class Animal {
+    void eat() {
+        System.out.println("Eating...");
+    }
+}
+
+class Dog extends Animal {
+    void bark() {
+        System.out.println("Barking...");
+    }
+}
+
+Dog d = new Dog();
+d.eat();   // inherited
+d.bark();
+```
+---
+
+## 🔁 5. Polymorphism
+Polymorphism means many forms — the ability to take different forms.
+
+### ✅ Types of Polymorphism:
+- Compile-time (Method Overloading)
+
+- Runtime (Method Overriding)
+
+### 🧪 Method Overloading (Compile-time)
+with Same method name, different parameters:
+
+#### Example 
+```java
+class Calculator {
+    int add(int a, int b) {
+        return a + b;
+    }
+
+    double add(double a, double b) {
+        return a + b;
+    }
+}
+```
+
+---
+
+### 🧪 Method Overriding (Runtime)
+- with Same method name, same parameter
+- Subclass provides a specific implementation:
+
+#### Example 
+```
+class Animal {
+    void sound() {
+        System.out.println("Animal sound");
+    }
+}
+
+class Cat extends Animal {
+    void sound() {
+        System.out.println("Meow");
+    }
+}
+
+Animal obj = new Cat();
+obj.sound();  // Meow
+```
+
+---
+
+## 🔒 6. Encapsulation
+- Wrapping data (fields) and code (methods) together.
+
+- Fields should be marked private and accessed via getters/setters.
+
+### ✅ Example:
+```java 
+class Employee {
+    private int salary;
+
+    public void setSalary(int s) {
+        salary = s;
+    }
+
+    public int getSalary() {
+        return salary;
+    }
+}
+```
+
+---
+
+## 🧩 7. Abstraction
+Hiding internal details and showing only essential features.
+
+### Achieved using:
+
+- Abstract classes: Must With Abstract Keyword 
+- Interfaces
+
+### 🧪 Abstract Class Example:
+
+```java
+abstract class Shape {
+    abstract void draw();
+}
+
+class Circle extends Shape {
+    void draw() {
+        System.out.println("Drawing circle");
+    }
+}
+```
+### 🧪 Interface Example:
+
+```java
+interface Animal {
+    void makeSound();
+}
+
+class Cow implements Animal {
+    public void makeSound() {
+        System.out.println("Moo");
+    }
+}
+```
+
+---
+## 🧠 Summary of OOP Concepts
+
+| Concept       | Description                                       |
+| ------------- | ------------------------------------------------- |
+| Class         | Blueprint for objects                             |
+| Object        | Instance of a class                               |
+| Constructor   | Initializes new objects                           |
+| Inheritance   | Reuse properties and behaviors from other classes |
+| Polymorphism  | Many forms: overloading/overriding                |
+| Encapsulation | Data hiding using private fields and methods      |
+| Abstraction   | Hiding details, exposing only what’s necessary    |
+
+---
+  
+
+
+
+
+
+
+  
+
+
 
 
 
