@@ -140,7 +140,7 @@ A **Variables**  is a container to store values (operand, variable, or expressio
 ---
 
 ## Data Type 
-- **Primitive datatype**
+**Primitive datatype**
 - byte
 - short
 - int
@@ -152,7 +152,7 @@ A **Variables**  is a container to store values (operand, variable, or expressio
 
 ---
 
-- **Non Primtive Datatype**
+**Non Primtive Datatype**
 - Array
 - String 
 - Class
