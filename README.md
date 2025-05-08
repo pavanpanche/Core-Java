@@ -21,8 +21,12 @@ This repository contains various core Java programs and exercises for learning a
 - Inheritance
 - Polymorphism
 - Encapsulation
-- Abstraction
-- 
+- Abstraction classes, interfaces
+- Packages
+- Access modifiers, Non Access Modifiers
+- Static Class
+- Nested Classes
+- Collection 
 ## How to Run
 To run any program, simply open the `.java` file in your favorite IDE (such as IntelliJ IDEA) and run it from there.
 
